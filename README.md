@@ -1,6 +1,6 @@
 # 📦 hulbo-common-startar 프로젝트
 
-Spring Boot 기반 공통 라이브러리 (`hulbo-common-startar`) 입니다.  
+Spring Boot 기반 공통 라이브러리 (`hulbo-common-library`) 입니다.  
 GitHub Packages를 통해 JAR 파일을 배포합니다.
 
 ## 🚀 설치 방법
