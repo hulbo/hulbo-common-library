@@ -11,7 +11,7 @@
 	<groupId>hulbo</groupId>
 	<artifactId>hulbo-common-library</artifactId>
 	<version>1.0.2</version>
-	<name>hulbo-common-starter</name>
+	<name>hulbo-common-library</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 
