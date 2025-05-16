@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -8,7 +8,7 @@
 		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>hulbo</groupId>
+	<groupId>hulbo.msa</groupId>
 	<artifactId>hulbo-common-starter</artifactId>
 	<version>1.0.0</version>
 	<name>common</name>
@@ -49,21 +49,27 @@
 			<artifactId>junit-jupiter-engine</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/hulbo/hulbo-common-library</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
+		<finalName>common-start-fixed</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<annotationProcessorPaths>
-						<path>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</path>
-					</annotationProcessorPaths>
+					<compilerArgs>
+						<arg>
+							-parameters
+						</arg>
+					</compilerArgs>
 				</configuration>
 			</plugin>
 			<!-- 테스트 코드 컴파일 제외 -->
@@ -75,6 +81,8 @@
 					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
+
 </project>
