@@ -10,5 +10,5 @@ Maven을 사용해 의존성을 추가하세요:
 <dependency>
     <groupId>hulbo</groupId>
     <artifactId>hulbo-common-library</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
 </dependency>
