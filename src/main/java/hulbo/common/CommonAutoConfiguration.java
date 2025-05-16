@@ -1,9 +1,9 @@
-package hulbo.msa.common;
+package hulbo.common;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "hulbo.msa.common")
+@ComponentScan(basePackages = "hulbo.common")
 public class CommonAutoConfiguration {
 }

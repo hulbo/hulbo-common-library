@@ -1,4 +1,4 @@
-package hulbo.msa.common.util;
+package hulbo.common.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

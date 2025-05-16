@@ -1,7 +1,7 @@
-package hulbo.msa.common.info;
+package hulbo.common.info;
 
-import hulbo.msa.common.util.JsonUtil;
-import hulbo.msa.common.vo.Greeting;
+import hulbo.common.util.JsonUtil;
+import hulbo.common.vo.Greeting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;

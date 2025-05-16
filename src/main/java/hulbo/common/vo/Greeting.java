@@ -1,4 +1,4 @@
-package hulbo.msa.common.vo;
+package hulbo.common.vo;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

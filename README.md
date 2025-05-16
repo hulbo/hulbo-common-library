@@ -8,7 +8,7 @@ Maven을 사용해 의존성을 추가하세요:
 
 ```xml
 <dependency>
-    <groupId>hulbo.msa</groupId>
-    <artifactId>common-start</artifactId>
+    <groupId>hulbo</groupId>
+    <artifactId>hulbo-common-library</artifactId>
     <version>1.0.0</version>
 </dependency>
