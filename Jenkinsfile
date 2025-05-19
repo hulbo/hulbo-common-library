@@ -15,8 +15,8 @@ pipeline {
 
         stage('Setup settings.xml') {
             steps {
+                // Maven의 설정 파일(settings.xml) 생성
                 sh """
-                    // Maven의 설정 파일(settings.xml) 생성
                     echo '<settings>' > settings.xml
                     echo '    <servers>' >> settings.xml
                     echo '        <server>' >> settings.xml
